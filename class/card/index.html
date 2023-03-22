@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+
+      }
+      section {
+        background-color: dodgerblue;
+        /* height: 100vh; */
+        height: calc(100vh - 150px);
+        padding-top: 150px;
+      }
+
+      .card {
+        width: 25%;
+        background-color: white;
+        margin: auto;
+        text-align: center;
+        border-radius: 8px;
+        padding: 20px 0;
+        box-shadow: inset 50px -50px 1000px black, 0px 0px 5px red, 50px -50px 1px black,
+          20px 50px 60px black;
+      }
+      div.card-inner {
+        width: 85%;
+        margin: auto;
+      }
+      #done {
+        width: 40px;
+        margin: auto;
+        background-color: gray;
+        padding: 33px 20px;
+        border-radius: 50%;
+        color: white;
+      }
+      header,
+      p {
+        margin-top: 20px;
+      }
+      button {
+        margin-top: 50px;
+        width: 100%;
+        padding: 10px 0;
+        border: none;
+        border-radius: 5px;
+        background-color: gray;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="card">
+        <div class="card-inner">
+          <div id="done">Done</div>
+          <header>
+            <h1>Thank You!</h1>
+          </header>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <button>Ok</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+div.div__container{
+  background-color: blue;
+  padding: 20px;
+}
+
+div.div__container > p {
+  background-color: red;
+}
+div.div__container~ul{
+  background-color: yellow;
+}
+ul li+li{
+  background-color: red;
+}
